@@ -8,5 +8,3 @@ RUN rm -frv /home/wso2carbon/wso2mi-4.1.0/wso2/components/micro-integrator-defau
 COPY synapse-core_4.0.0.jar /home/wso2carbon/wso2mi-4.1.0/wso2/components/plugins/
 COPY bundles.info /home/wso2carbon/wso2mi-4.1.0/wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator/
 USER 10001
-
-wso2/components/micro-integrator-default/configuration/org.eclipse.equinox.simpleconfigurator
